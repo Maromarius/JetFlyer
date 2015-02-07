@@ -67,7 +67,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.Company.ProductName
+  iPhoneBundleIdentifier: com.flyingmangoose.JetFlyer
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 8a4c7003db84fd149ab1a502decbe064
@@ -106,7 +106,25 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - m_Icon: {fileID: 0}
+      m_Size: 128
+  - m_BuildTarget: Android
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: 318c8a04438f6034a83ce40a3481c020, type: 3}
+      m_Size: 192
+    - m_Icon: {fileID: 0}
+      m_Size: 144
+    - m_Icon: {fileID: 0}
+      m_Size: 96
+    - m_Icon: {fileID: 0}
+      m_Size: 72
+    - m_Icon: {fileID: 0}
+      m_Size: 48
+    - m_Icon: {fileID: 0}
+      m_Size: 36
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
